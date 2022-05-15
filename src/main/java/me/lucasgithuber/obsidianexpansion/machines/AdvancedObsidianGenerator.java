@@ -80,7 +80,7 @@ public final class AdvancedObsidianGenerator extends AbstractMachineBlock implem
     @Nonnull
     @Override
     public String getRecipeSectionLabel(@Nonnull Player p) {
-        return "&7Gera";
+        return "&7生成";
     }
 
     @Override
