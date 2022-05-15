@@ -36,65 +36,63 @@ public class Items{
     public static final SlimefunItemStack OBSIDIAN_FORGE = new SlimefunItemStack(
             "OMC_OBSIDIAN_FORGE",
             Material.SMITHING_TABLE,
-            "&l&5Forja de obsidian",
-            "&8Usada para criar equipamentos",
-            "&8 e máquinas mais avançadas",
+            "&l&5黑曜石锻造桌",
+            "&8用于合成更先进的机器物品",
             "",
-            "&bMáquina"
+            "&b机器"
     );
     public static final SlimefunItemStack CONTAINMENT_PICK = new SlimefunItemStack(
             "OMC_CONTAINMENT_PICK",
             Material.NETHERITE_PICKAXE,
-            ChatColor.DARK_RED + "&lPicareta de contenção",
-            ChatColor.RED + "Usada para coletar spawners",
+            ChatColor.DARK_RED + "&l强化刷怪笼之镐",
+            ChatColor.RED + "用于收集刷怪笼",
             "",
-            "&8Ferramenta"
+            "&8工具"
     );
     public static final SlimefunItemStack NETHERITE_GEN = new SlimefunItemStack(
             "OMC_NETHERITE_GEN",
             Material.NETHERITE_BLOCK,
-            "&l&4Gerador de Netherite",
-            "&8Máquina geradora de netherite",
-            "&8Transforma pedregulho em netherite",
+            "&l&4下界合金发生器",
+            "&8用于无限生产下界合金锭",
             "",
-            "&2Gerador de recursos",
+            "&2资源生成器",
             MachineLore.energy(1600)+"/t"
     );
     public static final SlimefunItemStack OBSIDIAN_REACTOR = new SlimefunItemStack(
             "OMC_OBSIDIAN_ENERGY",
             Material.OBSIDIAN,
-            "&l&5Gerador a obsidian",
-            "&8Gera energia usando obsidian",
+            "&5&l黑曜石发电机",
+            "&8利用黑曜石发电机",
             "",
-            "aGerador de energia",
+            "&a发电机",
             MachineLore.energyBuffer(32768),
             MachineLore.energyPerSecond(8192)
     );
     public static final SlimefunItemStack ADVANCED_OBSIDIAN_ENERGY = new SlimefunItemStack(
             "OMC_ADVANCED_OBSIDIAN_ENERGY",
             Material.CRYING_OBSIDIAN,
-            "&l&5Gerador a obsidian &l&1Avançado",
-            "&8Gera energia usando obsidian",
+            "&b&l高级&5&l黑曜石发电机",
+            "&8更高效的发电机",
             "",
-            "aGerador de energia",
+            "&a发电机",
             MachineLore.energyBuffer(512),
             MachineLore.energyPerSecond(1024)
     );
     public static final SlimefunItemStack ADVANCED_OBSIDIAN_GEN = new SlimefunItemStack(
             "OMC_ADVANCED_OBSIDIAN_GEN",
             Material.POLISHED_ANDESITE,
-            "&l&4Gerador de obsidian &5avançado",
-            "&5Coleta obsidian do void",
+            "&c&l黑曜石发生器",
+            "&5无限生产黑曜石",
             "",
-            "&2Gerador de recursos"
+            "&2资源发生器"
     );
     public static final SlimefunItemStack VOID_OBSIDIAN_GEN = new SlimefunItemStack(
             "OMC_VOID_OBSIDIAN_GEN",
             Material.POLISHED_BLACKSTONE_BRICKS,
-            "&l&4Gerador de obsidian &8&lVoid",
-            "&5Coleta obsidian do void &8&labsoluto",
+            "&8&l虚空&c&l黑曜石发生器",
+            "&5无限生产黑曜石",
             "",
-            "&2Gerador de recursos"
+            "&2资源发生器"
     );
     //recursos
     public static final SlimefunItemStack SINGLE_COMPRESSED_OBSIDIAN = new SlimefunItemStack(
