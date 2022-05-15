@@ -269,7 +269,7 @@ public class Items{
             "&5&l穹顶之靴",
             ChatColor.of("#2E004A")+"&l当天堂塌陷，地狱升起",
             ChatColor.of("#2E004A")+"&l人间是否还会存在",
-            "&7缓降 III",
+            "&7海豚的恩惠 III",
             "&7速度 I",
             "&7跳跃提升 III",
             "&7生命提升 I"
