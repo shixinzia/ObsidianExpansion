@@ -1,4 +1,5 @@
-# 黑曜石科技
+# ObsidianExpansion
 
-## 黑曜石盔甲
-穿上全套后会出现粒子效果,后台会被刷屏
+
+## Obsidian armor
+After wearing the full set, the particle effect will appear and the background will be screened.
