@@ -65,8 +65,8 @@ public class Items{
             "&8利用黑曜石发电机",
             "",
             "&a发电机",
-            MachineLore.energyBuffer(32768),
-            MachineLore.energyPerSecond(350)
+            MachineLore.energyBuffer(80),
+            MachineLore.energyPerSecond(80)
     );
     public static final SlimefunItemStack ADVANCED_OBSIDIAN_ENERGY = new SlimefunItemStack(
             "OMC_ADVANCED_OBSIDIAN_ENERGY",
@@ -75,7 +75,7 @@ public class Items{
             "&8更高效的发电机",
             "",
             "&a发电机",
-            MachineLore.energyBuffer(512),
+            MachineLore.energyBuffer(1024),
             MachineLore.energyPerSecond(1024)
     );
     public static final SlimefunItemStack ADVANCED_OBSIDIAN_GEN = new SlimefunItemStack(
@@ -291,6 +291,11 @@ public class Items{
                 SlimefunItems.WITHER_PROOF_OBSIDIAN, OBSIDIAN_PLATE, SlimefunItems.WITHER_PROOF_OBSIDIAN,
                 OBSIDIAN_PLATE, SlimefunItems.ENERGIZED_CAPACITOR, OBSIDIAN_PLATE,
                 SlimefunItems.WITHER_PROOF_OBSIDIAN, OBSIDIAN_PLATE, SlimefunItems.WITHER_PROOF_OBSIDIAN
+        }).setCapacity(80).setEnergyProduction(40).register(omc);
+        new ObsidianReactor(Categories.OMC_GENERATORS, ADVANCED_OBSIDIAN_ENERGY, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
+                getItem("MACHINE_CORE"), OBSIDIAN_REACTOR, getItem("MACHINE_CORE"),
+                OBSIDIAN_REACTOR, SlimefunItems.ENERGIZED_CAPACITOR, OBSIDIAN_REACTOR,
+                getItem("MACHINE_CORE"), OBSIDIAN_REACTOR, getItem("MACHINE_CORE")
         }).setCapacity(1024).setEnergyProduction(512).register(omc);
         new AdvancedObsidianGenerator(Categories.OMC_GENERATORS, ADVANCED_OBSIDIAN_GEN, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 new ItemStack(Material.NETHERITE_PICKAXE), SlimefunItems.GEO_MINER, new ItemStack(Material.NETHERITE_PICKAXE),
@@ -301,7 +306,7 @@ public class Items{
                 SlimefunItems.PROGRAMMABLE_ANDROID_MINER, SlimefunItems.GEO_MINER, SlimefunItems.PROGRAMMABLE_ANDROID_MINER,
                 new ItemStack(Material.LAVA_BUCKET), ADVANCED_OBSIDIAN_GEN, new ItemStack(Material.LAVA_BUCKET),
                 getItem("MACHINE_PLATE"), getItem("INFINITE_MACHINE_CORE"), getItem("MACHINE_PLATE")
-       }).energyPerTick(40000).register(omc);
+        }).energyPerTick(40000).register(omc);
         new ObsidianForge(Categories.OMC_MACHINES, OBSIDIAN_FORGE, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[]{
                 OBSIDIAN_PLATE, new ItemStack(Material.CRAFTING_TABLE), OBSIDIAN_PLATE,
                 OBSIDIAN_GEAR, SlimefunItems.CRAFTING_MOTOR, OBSIDIAN_GEAR,
