@@ -291,7 +291,7 @@ public class Items{
                 SlimefunItems.WITHER_PROOF_OBSIDIAN, OBSIDIAN_PLATE, SlimefunItems.WITHER_PROOF_OBSIDIAN,
                 OBSIDIAN_PLATE, SlimefunItems.ENERGIZED_CAPACITOR, OBSIDIAN_PLATE,
                 SlimefunItems.WITHER_PROOF_OBSIDIAN, OBSIDIAN_PLATE, SlimefunItems.WITHER_PROOF_OBSIDIAN
-        }).setCapacity(32768).setEnergyProduction(8192).register(omc);
+        }).setCapacity(1024).setEnergyProduction(512).register(omc);
         new AdvancedObsidianGenerator(Categories.OMC_GENERATORS, ADVANCED_OBSIDIAN_GEN, RecipeType.ENHANCED_CRAFTING_TABLE, new ItemStack[] {
                 new ItemStack(Material.NETHERITE_PICKAXE), SlimefunItems.GEO_MINER, new ItemStack(Material.NETHERITE_PICKAXE),
                 new ItemStack(Material.DISPENSER), VOID_CORE, new ItemStack(Material.DISPENSER),
